@@ -16,11 +16,9 @@ export default function ProductPreviewCard({ product }) {
           </span>
           <span className='fraunces price'>${product.price}</span>
         </div>
-        <button
-          
-        >
-          <img src={cartIcon} />
-          <span href=''>Add to Cart</span>
+        <button>
+          <img src={cartIcon} alt='Add to Cart Icon' />
+          <span>Add to Cart</span>
         </button>
       </div>
     </div>

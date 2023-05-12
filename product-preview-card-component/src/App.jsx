@@ -10,9 +10,5 @@ const productInformation = {
   discountedPrice: 149.99,
 };
 export default function App() {
-  return (
-    <section>
-      <ProductPreviewCard product={productInformation} />
-    </section>
-  );
+  return <ProductPreviewCard product={productInformation} />;
 }
