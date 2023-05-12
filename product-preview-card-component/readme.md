@@ -24,8 +24,8 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-
-![](./screenshot.jpg)
+<img src="./screenshot.png" style="width:500px"/>
+<img src="./screenshot-2.png" style="width:500px"/>
 
 ### Links
 
@@ -44,8 +44,6 @@ Users should be able to:
 ### What I learned
 
 In this project, I had the opportunity to repeat the media queries and refreshed my knowledge.
-
-To see how you can add code snippets, see below:
 
 ```css
 @media screen and (max-width: 767px) {
