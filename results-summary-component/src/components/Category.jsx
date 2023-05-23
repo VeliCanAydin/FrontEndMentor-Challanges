@@ -8,8 +8,8 @@ export default function Category({ category, score, icon }) {
         <h1 className='heading' id={category.toLowerCase() + "-heading"} >{category}</h1>
       </div>
       <div className='score-percentage'>
-        <p id='score'>{score}</p>
-        <p id='percentage'>/ 100</p>
+        <p>{score}</p>
+        <p class='percentage'>/ 100</p>
       </div>
     </div>
   );
