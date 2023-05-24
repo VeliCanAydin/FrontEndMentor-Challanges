@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/results-summary-component-io2J_elEYe)
+- Live Site URL: [Live](https://darling-trifle-4be344.netlify.app/)
 
 ## My process
 
