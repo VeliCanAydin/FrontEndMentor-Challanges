@@ -65,6 +65,9 @@ button {
   .button-nav {
     width: 10.4375rem;
     height: 3.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.75rem;
   }
   .button-header {
     width: 10.4375rem;
@@ -72,5 +75,12 @@ button {
     border-radius: 1.96875rem;
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+  .button-footer {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 10.4375rem;
+    height: 3.5rem;
+    border-radius: 1.75rem;
   }
 }

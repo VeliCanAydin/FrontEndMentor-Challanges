@@ -80,16 +80,17 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: 1.625rem;
+  max-width: 27.8125rem;
 }
 
 .heading {
   color: var(--13183-f, #13183f);
-  /* Heading L */
   font-size: 2.5rem;
   font-family: Plus Jakarta Sans;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  max-width: 28.5625rem;
 }
 
 nav > h1 > a {
@@ -140,6 +141,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-link {
@@ -232,6 +234,8 @@ footer {
     width: 21.875rem;
     height: 20.125rem;
     border-radius: 0.9375rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 
   .text-group {
@@ -249,5 +253,9 @@ footer {
   }
   .footer-container {
     width: 69.375rem;
+  }
+  .footer-link {
+    width: 6.948rem;
+    height: 1.73025rem;
   }
 }

@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-AbNaUO8SMi)
 - Live Site URL: [Netlify](https://main--funny-cheesecake-be73ba.netlify.app/)
 
 ## My process
@@ -59,4 +59,4 @@ I need to improve myself on responsive design and aim to write cleaner css. In t
 ## Author
 
 - Frontend Mentor - [@VeliCanAydin](https://www.frontendmentor.io/profile/VeliCanAydin)
-- LinkedIn - [@yourusername](https://www.linkedin.com/in/velicanaydin)
+- LinkedIn - [@LinkedIn](https://www.linkedin.com/in/velicanaydin)
