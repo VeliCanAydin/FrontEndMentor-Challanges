@@ -1,6 +1,6 @@
 import './App.css';
 import CourseCard from './components/CourseCard';
-import Button from './components/button';
+import Button from './components/Button';
 import { cards } from './cards';
 import HeroImage from './components/HeroImage';
 
