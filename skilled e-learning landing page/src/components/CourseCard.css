@@ -1,0 +1,82 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 16.1875rem;
+  border-radius: 0.625rem;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  padding: 3.5rem 1.81rem 2rem 1.75rem;
+  text-align: start;
+}
+
+.course-icon {
+  position: absolute;
+  top: -1.35rem;
+}
+
+.card-title {
+  color: #13183f;
+  font-size: 1.25rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 1rem;
+}
+
+.card-text {
+  color: #83869a;
+  font-size: 1rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+  padding-bottom: 1.5rem;
+}
+
+.card-link {
+  color: #f74780;
+  font-size: 1.125rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  color: #FFA7C3;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 21.1875rem;
+    padding: 3.5rem 1.31rem 2rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    pad: 4rem 2rem 2.5rem 2rem;
+    width: 21.875rem;
+    height: 20.125rem;
+    border-radius: 0.9375rem;
+    gap: 1.5rem;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    padding: 0;
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    padding: 0;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+  }
+
+}

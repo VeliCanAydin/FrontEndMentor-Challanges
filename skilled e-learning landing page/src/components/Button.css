@@ -1,0 +1,76 @@
+button {
+  border: none;
+  border-radius: 1.75rem;
+  color: #fff;
+  font-size: 1rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  background: #13183f;
+  z-index: 1;
+}
+
+.button-nav {
+  width: 8.75rem;
+  height: 3rem;
+}
+
+.button-nav:hover {
+  background: #666ca3;
+}
+
+.button-header {
+  width: 10.4375rem;
+  height: 3.5rem;
+  background: var(
+    --gradient-1,
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
+  );
+  line-height: 1.625rem;
+  border-radius: 1.96875rem;
+}
+
+.button-header:hover {
+  background: var(
+    --gradient-1-hover,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
+  );
+}
+
+.button-footer {
+  width: 8.75rem;
+  height: 3rem;
+  background: var(
+    --gradient-2,
+    linear-gradient(180deg, #4851ff 0%, #f02aa6 100%)
+  );
+}
+
+.button-footer:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+}
+
+@media (min-width: 1024px) {
+  .button-nav {
+    width: 10.4375rem;
+    height: 3.5rem;
+  }
+  .button-header {
+    width: 10.4375rem;
+    height: 3.9375rem;
+    border-radius: 1.96875rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}

@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#root {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 2.38rem;
+}
+
+.header-text {
+  margin-top: 1.63rem;
+  margin-bottom: 1.5rem;
+  color: #83869a;
+  font-size: 1rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+}
+
+.heading {
+  color: var(--13183-f, #13183f);
+  /* Heading L */
+  font-size: 2.5rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+nav > h1 > a {
+  color: var(--13183-f, #13183f);
+  font-size: 1.75rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.course-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.courses {
+  padding: 1.5rem 1.81rem 2rem 1.75rem;
+  border-radius: 0.625rem;
+  background: var(
+    --gradient-1,
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
+  );
+  color: var(--ffffff, #fff);
+  font-size: 1.5rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2rem;
+  text-align: start;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #13183f;
+  height: 7.5rem;
+  padding: 0 1rem;
+  margin-top: 4rem;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 1.5rem 2.44rem;
+    max-width: 1024px;
+  }
+
+  header {
+    flex-direction: row;
+    margin-top: 3.11rem;
+    margin-bottom: 10rem;
+  }
+
+  .heading {
+    margin-bottom: 1.56rem;
+  }
+  .header-text {
+    margin-bottom: 1.56rem;
+    margin-top: 0;
+  }
+  .course-section {
+    flex-flow: row wrap;
+    row-gap: 3.5rem;
+    column-gap: 0.69rem;
+  }
+  .courses {
+    width: 21.1875rem;
+    height: 16.1875rem;
+    padding: 3.5rem 2rem;
+  }
+  footer {
+    padding: 0 2.5rem;
+  }
+  .footer-container {
+    width: 43.0625rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  main {
+    max-width: 69.375rem;
+    padding: 1.5rem 0;
+  }
+  nav > h1 > a {
+    font-size: 2.25rem;
+  }
+  header {
+    margin-top: 5.44rem;
+    margin-bottom: 8.37rem;
+    padding-right: 1rem;
+  }
+
+  .heading {
+    margin-bottom: 1.81rem;
+    font-size: 3.5rem;
+  }
+
+  .header-text {
+    margin-bottom: 2.5rem;
+    font-size: 1.125rem;
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+  }
+
+  .course-section {
+    width: 100%;
+    flex-flow: row wrap;
+    row-gap: 5rem;
+    column-gap: 1.87rem;
+  }
+
+  .courses {
+    width: 21.875rem;
+    height: 20.125rem;
+    border-radius: 0.9375rem;
+  }
+
+  .text-group {
+    max-width: 28.5625rem;
+  }
+
+  body {
+    overflow-x: hidden;
+    height: 100%;
+  }
+  footer {
+    width: 100%;
+    margin-top: 7.25rem;
+    padding: 2rem 0;
+  }
+  .footer-container {
+    width: 69.375rem;
+  }
+}

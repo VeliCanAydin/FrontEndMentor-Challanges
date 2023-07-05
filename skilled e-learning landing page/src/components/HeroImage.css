@@ -1,0 +1,227 @@
+.hero-container {
+  position: relative;
+  width: 15.8125rem;
+  height: 15.8125rem;
+  border-radius: 9.90625rem;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  margin-top: 4.38rem;
+  margin-bottom: 5.62rem;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 18.8125rem;
+  position: relative;
+  top: -1rem;
+  scale: 0.88;
+}
+
+.hero-image-group {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 343px;
+}
+
+.popup {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 0.625rem;
+  box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+  z-index: 3;
+}
+
+.popup-heading {
+  color: #83869a;
+  font-size: 0.875rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.popup-text {
+  color: var(--13183-f, #13183f);
+  font-size: 2rem;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.members {
+  width: 6.5625rem;
+  height: 6.25rem;
+  top: 3.5rem;
+  right: 0.5rem;
+  animation: members 1.5s ease-in-out;
+}
+
+.hours {
+  bottom: 4.12rem;
+  left: 0.5rem;
+  width: 9.6875rem;
+  height: 6.25rem;
+  animation: hours 1s ease-in-out;
+}
+
+@keyframes hours {
+  from {
+    bottom: 2.12rem;
+    opacity: 0.7;
+  }
+  to {
+    bottom: 4.12rem;
+    opacity: 1;
+  }
+}
+
+@keyframes members {
+  from {
+    top: 1.5rem;
+    opacity: 0.7;
+  }
+  to {
+    top: 3.5rem;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    width: 13.53375rem;
+    height: 23.90819rem;
+    border-radius: 9.90625rem;
+    margin: 0;
+  }
+  .hero-image {
+    left: -2.2rem;
+    top: 1.8rem;
+    scale: 0.9;
+  }
+
+  .hero-image-group {
+    max-width: 303px;
+  }
+
+  .hero-image-group:before {
+    position: absolute;
+    right: -8rem;
+    bottom: -4rem;
+    content: '';
+    width: 13.53375rem;
+    height: 43.03481rem;
+    border-radius: 9.90625rem;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  }
+  .hours {
+    bottom: -3rem;
+    left: -0.5rem;
+  }
+  .members {
+    top: -1rem;
+    right: -0.63rem;
+  }
+
+  @keyframes hours {
+    from {
+      bottom: -5rem;
+      opacity: 0.7;
+    }
+    to {
+      bottom: -3rem;
+      opacity: 1;
+    }
+  }
+
+  @keyframes members {
+    from {
+      top: -3rem;
+      opacity: 0.7;
+    }
+    to {
+      top: -1rem;
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    width: 19.8125rem;
+    height: 35rem;
+  }
+
+  .hero-image-group {
+    max-width: 317px;
+  }
+
+  .hero-image-group:before {
+    width: 19.8125rem;
+    height: 63rem;
+    bottom: -5.5rem;
+    right: -16.2rem;
+  }
+
+  .hero-image {
+    left: 1rem;
+    top: 8rem;
+    scale: 1.35;
+  }
+
+  .popup {
+    padding: 1.25rem 1.5rem;
+    align-items: start;
+  }
+
+  .popup-heading {
+    font-size: 1rem;
+  }
+
+  .popup-text {
+    font-size: 2.5rem;
+  }
+
+  .hours {
+    width: 12.4375rem;
+    height: 7.5rem;
+    bottom: 5rem;
+    left: -7.5rem;
+  }
+
+  .members {
+    width: 9.6875rem;
+    height: 7.5rem;
+    top: 6.5rem;
+    right: -7.4rem;
+  }
+
+  @keyframes hours {
+    from {
+      bottom: 2rem;
+      opacity: 0.7;
+    }
+    to {
+      bottom: 5rem;
+      opacity: 1;
+    }
+  }
+
+  @keyframes members {
+    from {
+      top: 3.5rem;
+      opacity: 0.7;
+    }
+    to {
+      top: 6.5;
+      opacity: 1;
+    }
+  }
+}
