@@ -139,5 +139,9 @@ p {
     font-size: 6.5rem;
     line-height: 7.15rem;
     letter-spacing: -0.13rem;
+
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%; /* 7.15rem */
   }
 }

@@ -35,7 +35,7 @@ const Counter = ({ targetNumber }) => {
 
   return (
     <>
-      <span className='result'>{targetNumber === 0 ? 0 : count || '--'}</span>
+      <span className='result'>{targetNumber === 0 ? 0 : count || '- -'}</span>
     </>
   );
 };
