@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/age-calculator-app-with-react-qtQizc2HCX)
 - Live Site URL: [Netlify](https://zesty-daifuku-78e8de.netlify.app/)
 
 ## My process
