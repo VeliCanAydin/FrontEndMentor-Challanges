@@ -1,0 +1,66 @@
+#input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+}
+label {
+  color: var(--Grey, #716f6f);
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+}
+
+input[type='text'] {
+  display: flex;
+  border-radius: 0.5rem;
+  border: 1px solid var(--Line, #dcdcdc);
+  padding: 0.75rem 1rem;
+  align-items: center;
+
+  color: var(--Black);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.0125rem;
+  outline: none;
+}
+
+.error {
+  color: var(--Red, #ff5959);
+  font-size: 0.875rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  display: none;
+}
+
+input:invalid[focused='true'] {
+  border: 1px solid red;
+}
+
+input:invalid[focused='true'] ~ span {
+  display: block;
+}
+
+@media (min-width: 700px) {
+  #input-container {
+    gap: 0.5rem;
+    width: 10rem;
+  }
+
+  label {
+    font-size: 0.875rem;
+    letter-spacing: 0.21875rem;
+  }
+
+  input[type='text'] {
+    font-size: 2rem;
+    letter-spacing: 0.02rem;
+  }
+}
