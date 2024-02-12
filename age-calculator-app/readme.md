@@ -44,17 +44,11 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://zesty-daifuku-78e8de.netlify.app/)
 
 ## My process
 
-With this project, I had a beginner level knowledge of how to handle forms in React applications. I especially tried not to use a library (like formik or react-hook-form) because libraries slow down your learning curve and squeeze you into a narrow space. The
-
-```js
-new FormData();
-```
-
-structure I came across while trying to create this project is quite useful. Although I didn't use it in this project, it looks like I can use it in my future projects.
+With this project, I had a beginner level knowledge of how to handle forms in React applications. I especially tried not to use a library (like formik or react-hook-form) because libraries slow down your learning curve and squeeze you into a narrow space. The ```new FormData();``` structure I came across while trying to create this project is quite useful. Although I didn't use it in this project, it looks like I can use it in my future projects.
 
 ### Built with
 
