@@ -1,5 +1,6 @@
 'use client';
 import { useSearchParams, usePathname, useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 export default function FormSection() {
   const searchParams = useSearchParams();
@@ -31,7 +32,7 @@ export default function FormSection() {
       <form className='flex w-full flex-wrap justify-between h-full max-[640px]:gap-[2.5rem]'>
         <div className='relative shadow-[0_2px_9px_0_rgba(0,0,0,0.05)] w-[30rem] h-full max-[640px]:w-[343px]'>
           <div className='absolute inset-y-0 start-0 flex items-center ps-[2rem] pointer-events-none h-full'>
-            <img src='/search.svg' />
+            <Image src='/search.svg' width={18} height={18} alt='search' />
           </div>
           <input
             type='search'

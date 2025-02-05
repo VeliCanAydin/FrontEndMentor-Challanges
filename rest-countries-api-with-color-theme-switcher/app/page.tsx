@@ -10,7 +10,7 @@ interface Country {
   region: string;
   capital: string[];
   flags: {
-    png: string;
+    svg: string;
   };
 }
 
@@ -57,7 +57,7 @@ export default async function Home(props: { searchParams: SearchParams }) {
               population={country.population}
               region={country.region}
               capital={country.capital}
-              flagUrl={country.flags.png}
+              flagUrl={country.flags.svg}
             />
           </Link>
         ))}

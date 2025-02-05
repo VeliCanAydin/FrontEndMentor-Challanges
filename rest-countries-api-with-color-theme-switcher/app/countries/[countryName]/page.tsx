@@ -20,7 +20,13 @@ export default async function Page({
     <div className='flex flex-col max-w-[1280px] w-full mx-auto dark:bg-[#202C36] dark:text-white max-[640px]:px-[1.75rem]'>
       <Link href={'/'}>
         <button className='block mt-[5rem] max-[640px]:mt-10 bg-white dark:bg-[#2B3844] text-[#111517] dark:text-white flex items-center gap-[10px] w-[8.5rem] h-[2.5rem] pl-[2rem] rounded-[6px] shadow-[0_0_7px_0_rgba(0,0,0,0.29)]'>
-          <img src='/arrow.svg' className='fill-black dark:fill-white' />
+          <Image
+            src='/arrow.svg'
+            width={20}
+            height={20}
+            alt='Go homepage'
+            className='fill-black dark:fill-white'
+          />
           Back
         </button>
       </Link>
@@ -88,7 +94,7 @@ export default async function Page({
               Border Countries
             </span>
             <div className='flex flex-wrap gap-[10px]'>
-              {details[0].borders?.map((border: any) => (
+              {details[0].borders?.map((border: string) => (
                 <button
                   key={border}
                   className='w-[6rem] h-[1.75rem] bg-white dark:bg-[#2B3844] rounded-[3px] shadow-[0_0_4px_1px_rgba(0,0,0,0.1)]'

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface CountryCardProps {
   name: string;
@@ -17,9 +18,16 @@ const CountryCard: React.FC<CountryCardProps> = ({
 }) => {
   return (
     <div className='w-[16.5rem] h-[21rem] text-[#111517] dark:text-white bg-white dark:bg-[#2B3844] shadow-lg rounded-lg overflow-hidden shadow-[0_0_7px_2px_rgba(0,0,0,0.03)]'>
-      <img
+      <Image
         src={flagUrl}
         alt={`${name} flag`}
+        width={0}
+        height={0}
+        style={{
+          width: '100%',
+          height: '10rem',
+          objectFit: 'cover',
+        }}
         className='w-full h-[10rem] object-cover'
       />
       <div className='p-6 h-[11rem] dark:bg-[#2B3844]'>
